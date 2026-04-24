@@ -10,7 +10,7 @@ Pancake sorting is a variation of the sorting problem where the only allowed ope
 * **Flip Operation:** Instead of swapping values, this implementation rearranges the **pointers** themselves, which is a more advanced memory management task.
 * **FindMax:** Scans the unsorted portion of the list to find the largest "pancake" to move it to its correct position.
 
-###Description In Turkish (Türkçe Açıklama):
+### Description In Turkish (Türkçe Açıklama):
 İlk olarak pankek node sınıfımızı tanımladık burada her bir liste elemanının next ve prev nodelarını ve constructor’u yazdık. Sonra asıl sınıfımızı oluşturduk. Head değişkeniyle listenin başını tuttuk ve count değişkeniyle kaç tane pankek olduğunu her pankek eklenişinde arttırarak saydık.
 Add fonksiyonu listeye pankek eklemeye yarıyor eğer liste boşsa yeni elemanı listenin başı yapıyor değilse current değişkeni head’i tutuyor. Sonrasında while ile liste tek tek dolaşılıyor ve current ile liste sonuna gidiliyor sonra current.next’e yeni eleman atanıyor ve listeye ekleme yapılıyor.
 Display fonksiyonu listeyi yazdırmaya yarıyor eğer liste boşsa liste boş yazıyor değilse önce en üstü yazıyor sonra add ile aynı mantıkta current ile listeyi geziyor ve tek tek liste elemanlarını yazdırıyor.
